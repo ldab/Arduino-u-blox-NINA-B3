@@ -39,10 +39,10 @@ u-blox NINA-B3 Arduino example + SHT31 temperature and humidity + Bluetooth BLE 
 
 ## Known limitations
 
-Some pins mapped on GPIO Port 1 are not yet supported, mainly affects Blue RGB and Serial UART.
+* Some pins mapped on GPIO Port 1 are not yet supported, mainly affects Blue RGB and Serial UART.
 https://github.com/arduino-org/arduino-core-nrf52/issues/68
 
-`attachInterrupt()` locks conflicts with BLE lib.
+* `attachInterrupt()` locks conflicts with BLE lib.
 https://github.com/sandeepmistry/arduino-BLEPeripheral/issues/205
 
 ## Why?

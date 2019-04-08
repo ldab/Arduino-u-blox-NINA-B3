@@ -37,4 +37,4 @@ install:
     - platformio lib -g install 479 1586 259
 
 script:
-    - platformio ci --board=ublox_evk_nina_b3
+    - pio run
